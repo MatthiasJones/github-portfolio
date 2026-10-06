@@ -23,7 +23,7 @@ function App() {
           <p>I'm a computer science student trying out various different projects to improve my knowledge</p>
           <Button href="#project-page">View my Projects</Button>
         </div>
-        <img src='/mountain-logo.svg' alt='image of mountain logo '/>
+        <img src={`${import.meta.env.BASE_URL}/mountain-logo.svg`} alt='image of mountain logo '/>
       </header>
       <div className='project-area' id="project-page">
         <div className='projects'>
