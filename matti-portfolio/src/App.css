@@ -67,6 +67,10 @@ button {
 }
 
 @media (max-width:992px){
+  header {
+    padding-left: 7.25%;
+  }
+
   .projects {
     width: 90%;
   }
@@ -81,7 +85,7 @@ button {
 
     position: relative;
     min-height: 275px;
-    padding-bottom: 2%;
+    padding-bottom: 7%;
 
     .profile {
       position: relative;
@@ -98,7 +102,7 @@ button {
       width: 75vw;
       z-index: 0;
       bottom: 0;
-      right: 5%;
+      right: 0;
       opacity: 80%;
     }
   }
