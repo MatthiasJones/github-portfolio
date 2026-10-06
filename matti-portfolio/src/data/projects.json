@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "This Website!",
+    "description": "Developed a portfolio website using React and Vite, focusing on reusable components, clean user experience and a responsive design that adapts to various screen sizes",
+    "githubURL": "https://github.com/MatthiasJones/github-portfolio",
+    "tags": ["React", "JavaScript", "Web Development"]
+  },
+  {
+    "id": 2,
+    "title": " ",
+    "description": "",
+    "githubURL": "",
+    "tags": ["", ""]
+    
+  },
+  {
+    "id": 3,
+    "title": " ",
+    "description": "",
+    "githubURL": "",
+    "tags": ["",""]
+    
+  },
+  {
+    "id": 4,
+    "title": " ",
+    "description": "",
+    "githubURL": "",
+    "tags": ["",""]
+    
+  },
+  {
+    "id": 5,
+    "title": " ",
+    "description": "",
+    "githubURL": "",
+    "tags": ["",""]
+    
+  },
+  {
+    "id": 6,
+    "title": " ",
+    "description": "",
+    "githubURL": "",
+    "tags": ["",""]
+    
+  }
+]

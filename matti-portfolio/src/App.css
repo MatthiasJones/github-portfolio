@@ -1,0 +1,109 @@
+html, body {
+  overscroll-behavior: none;
+  color: white;
+}
+
+#root, body{
+  max-width: 100%;
+  margin: 0;
+  text-align: left;
+  background-color: #263e2e;
+  color: white;
+  font-family: 'Lato';
+}
+
+.profile {
+  width: 80%;
+  margin: auto;
+  padding: 0 5px 15px;
+}
+
+img {
+  height: 200px;
+  width: auto;
+
+}
+
+header {
+  display: flex;
+  padding: 5% 7.5% 0% 11%;
+  margin: 0 auto;
+  align-items: end;
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  a {
+    background-color: #ff7d45 !important;
+    border: none !important;
+    color: #263e2e !important;
+  }
+}
+
+.project-area {
+  background-color: #d8cbc7;
+  width: 100%;
+  padding: 0.1rem 1.5rem 1rem;
+}
+
+.projects {
+  width: 80%;
+  margin: 0 auto;
+
+  h2 {
+    color: #263e2e;
+    margin: 1rem 0;
+  }
+}
+
+.card {
+  padding: 1em;
+}
+
+button {
+  padding: 10px;
+}
+
+@media (max-width:992px){
+  .projects {
+    width: 90%;
+  }
+}
+
+@media (max-width:576px) {
+  .projects {
+    width: 100%;
+  }
+  
+  header {
+
+    position: relative;
+    min-height: 275px;
+    padding-bottom: 2%;
+
+    .profile {
+      position: relative;
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 0;
+      width: 75%;
+      z-index: 1;
+    }
+
+    img {
+      position: absolute;
+      height: auto;
+      width: 75vw;
+      z-index: 0;
+      bottom: 0;
+      right: 5%;
+      opacity: 80%;
+    }
+  }
+
+  .project-area {
+    padding: 0.5rem 2rem 1rem;
+  }
+}
